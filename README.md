@@ -26,4 +26,4 @@ Then install the required packages: `pip install -r requirements.txt`.
 Please see the template data at `/data` ,it contains various characteristic data and synonymous mutations in the form of VCF. If you are trying to using MFDSMC with your own data, please process you data into the same format as it.
 
 ## Examples
-If you haved encoded your mutations with the aforementioned features, you can run the following command to test the model: `python for_test.py`.
+You can run the following command to test the model with data of Test Set I: `python for_test.py`. If you haved encoded your mutations with the aforementioned features, just replace the `./data/feature-encoded/for-train-test/test1-closeby6-encoded-feat146.csv` with your own data.
